@@ -2,7 +2,8 @@
 # Creación de esquema viv_vp que contiene las capas de vivienda protegida:
 # promociones_parcela (anteriormente promociones_jesus)
 # promociones (anteriormente promociones2017)
-# 
+# Sirve para no tocar las capas de Jesus y continuar las capas en un esquema
+# distinto.
 
 library("RPostgres")
 

@@ -12,7 +12,7 @@ con_owner <- dbConnect(RPostgres::Postgres(),
                        dbname = 'dbgis01',  ##Nombre de la BBDD
                        host= 'VMGIS04.cfv.junta-andalucia.es',
                        port= '5444',
-                       user= 'sige_owner'  , 
+                       user= 'sige_owner'  ,  
                        password= 'MCG3NtPM'  )  
 
 #Creo el esquema
