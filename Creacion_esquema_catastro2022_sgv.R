@@ -1,8 +1,7 @@
 
 # Creación de esquea catastro2022_sgv donde se crea una capa de parcelas
 # que contiene información de resumen obtenida a partir de:
-# la capa de parcelas
-# y de la tabla de edificios del trabajo del IECA
+# la capa de parcelas  y de la tabla de edificios del trabajo del IECA
 # Esto sirve para fabricar la capa de promociones de vivienda protegida localizadas
 
 

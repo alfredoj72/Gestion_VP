@@ -1,6 +1,5 @@
 # AÑADIR ELEMENTOS A PROMOCIONES Y A PROMOCIONES_PARCELAS
 # 
-
 library(rio)
 library(tidyverse)
 library(sf) 

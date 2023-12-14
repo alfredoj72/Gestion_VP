@@ -1,4 +1,6 @@
-# Calculos por municipio
+# Carga en memoria los datos de las promociones de vivienda protegida y
+# realiza una serie de cálculos para obtener estadísticas por municipios
+
 
 library("RPostgres")
 library("tidyverse")
@@ -35,7 +37,7 @@ promociones_sf <- st_read(con_ajms,
                           geometry_column  = "the_geom")
 
 promociones_parcelas_sf <- st_read(con_ajms, 
-                          query = "SELECT * from viv_vp.promociones_localizadas",
+                          query = "SELECT * from viv_vp.promociones_parcelas",
                           geometry_column  = "the_geom")
 
 dbDisconnect(con_ajms)
